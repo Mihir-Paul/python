@@ -1,0 +1,5 @@
+a = int(input("Enter the first term:"))
+r = int(input("Enter the common ratio:"))
+n = int(input("Enter the term:"))
+s  = a*r**(n-1)
+print("Geometric Progression:",s)
